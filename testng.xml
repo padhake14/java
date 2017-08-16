@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suit">
+
+<listeners>
+<listener class-name="customelistener.listener"></listener>
+</listeners>
+	<test name="Registration">
+		<classes>
+			<class name="testScript.TC001_testLogin" />
+			<class name="testScript.TC002_testRegistration" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->

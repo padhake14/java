@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suit" duration-ms="77939" started-at="2017-08-16T09:59:41Z" finished-at="2017-08-16T10:00:59Z">
+    <groups>
+    </groups>
+    <test name="Registration" duration-ms="77939" started-at="2017-08-16T09:59:41Z" finished-at="2017-08-16T10:00:59Z">
+      <class name="testScript.TC002_testRegistration">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testScript.TC002_testRegistration@6500df86]" name="setUP" is-config="true" duration-ms="12544" started-at="2017-08-16T15:30:14Z" finished-at="2017-08-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="testregistrationWithData()[pri:0, instance:testScript.TC002_testRegistration@6500df86]" name="testregistrationWithData" duration-ms="33129" started-at="2017-08-16T15:30:26Z" description="test registration with valid data" finished-at="2017-08-16T15:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testregistrationWithData -->
+      </class> <!-- testScript.TC002_testRegistration -->
+      <class name="testScript.TC001_testLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testScript.TC001_testLogin@42dafa95]" name="setUp" is-config="true" duration-ms="24717" started-at="2017-08-16T15:29:41Z" finished-at="2017-08-16T15:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testlogin()[pri:0, instance:testScript.TC001_testLogin@42dafa95]" name="testlogin" duration-ms="7501" started-at="2017-08-16T15:30:06Z" finished-at="2017-08-16T15:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+      </class> <!-- testScript.TC001_testLogin -->
+    </test> <!-- Registration -->
+  </suite> <!-- Regression Suit -->
+</testng-results>
